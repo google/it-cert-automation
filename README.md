@@ -1,4 +1,8 @@
-# Google IT Professional Certificate - Automation with Python
+# Google IT Automation with Python Professional Certificate
 
-This repository contains all code snippets shown during the courses.
+This repository contains all code snippets and files shown throughout the
+courses that are part of the Google IT Automation with Python Professional
+Certificate
+
+There's a separate folder for each course.
 
