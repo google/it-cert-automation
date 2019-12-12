@@ -14,7 +14,7 @@
 # limitations under the License.
 
 #
-# These are the snippets shown during the demo videos in C1M5
+# These are the snippets shown during the demo videos in C1M6
 # Each snippet is followed by the corresponding output when executed in the
 # Python interpreter.
 
