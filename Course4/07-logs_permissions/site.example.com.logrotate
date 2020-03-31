@@ -1,0 +1,12 @@
+"/var/log/site.example.com.log" {
+  daily
+  rotate 7
+  create root root
+  compress
+  delaycompress
+  missingok
+  notifempty
+  postrotate
+    ! /usr/sbin/invoke-rc.d --quiet uwsgi status > /dev/null || /usr/sbin/invoke-rc.d uwsgi reload >/dev/null
+  endscript
+}
